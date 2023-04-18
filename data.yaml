@@ -1,0 +1,13 @@
+train: D:\Hochschule\SS\VigilantIA\train_Pictures\train
+val: D:\Hochschule\SS\VigilantIA\train_Pictures\valid
+#test: ../test/images
+
+nc: 1
+names: ['Person']
+
+roboflow:
+  workspace: sangarsh-s
+  project: person-jobpr
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sangarsh-s/person-jobpr/dataset/1
