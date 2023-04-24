@@ -1,9 +1,0 @@
-
-# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: D:\Hochschule\SS\VigilantIA\yolov5train\datasets\person # dataset root dir
-train: D:\Hochschule\SS\VigilantIA\yolov5train\datasets\person\train\images  # train images (relative to 'path') 
-val: D:\Hochschule\SS\VigilantIA\yolov5train\datasets\person\valid\images  # val images (relative to 'path') 
-test:  # test images (optional)
-
-nc: 1
-names: ['Person']
